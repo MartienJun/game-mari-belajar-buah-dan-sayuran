@@ -22,6 +22,8 @@ public class AkumulasiPoint : MonoBehaviour
     public void StartGame()
     {
         score = 0;
+        stackSoal.Clear();
+        stackFruit.Clear();
         titlePanel.SetActive(false);
         endPanel.SetActive(false);
         questionPanel.SetActive(true);
@@ -36,7 +38,6 @@ public class AkumulasiPoint : MonoBehaviour
             list.RemoveAt(index);
             list2.RemoveAt(index);
         }
-        Debug.Log("StartGame");
         NextQuestion();
     }
 
