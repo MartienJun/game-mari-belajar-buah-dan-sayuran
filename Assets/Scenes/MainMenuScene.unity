@@ -937,7 +937,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Creator: \n<b>Martien Junaedi</b>, mahasisa TI Universitas Bunda Mulia\n"
+  m_Text: "Creator: \n<b>Martien Junaedi</b>, mahasisa TI Universitas Bunda Mulia\n<b>Arvin
+    Christopher</b>, mahasisa TI Universitas Bunda Mulia"
 --- !u!222 &965164253
 CanvasRenderer:
   m_ObjectHideFlags: 0
