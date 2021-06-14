@@ -7,6 +7,7 @@ public class AkumulasiPoint : MonoBehaviour
 {
     private float score;
     public GameObject titlePanel;
+    public GameObject menuPanel;
     public GameObject questionPanel;
     public GameObject[] listSoal;
     public GameObject[] listFruits;
@@ -25,6 +26,7 @@ public class AkumulasiPoint : MonoBehaviour
         stackSoal.Clear();
         stackFruit.Clear();
         titlePanel.SetActive(false);
+        menuPanel.SetActive(false);
         endPanel.SetActive(false);
         questionPanel.SetActive(true);
         List<GameObject> list = new List<GameObject>(listSoal);
